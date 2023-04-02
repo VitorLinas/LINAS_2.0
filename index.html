@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="style/imgs/Logo.png">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <title>LINAS</title>
+</head>
+<body>
+  <a href="#menu"><input type="image" src="style/imgs/seta.SVG" id="seta"></a>
+    <header id="menu">
+        <nav>
+            <a class="logo" href=""><img src="style/imgs/Logo.png" alt="logo"></a>
+
+            <input type="checkbox" id="checkbox"/>
+            <label for="checkbox" class="hamburger"><img src="style/imgs/iconHamburg.SVG"></label>
+
+            <ul class="nav-list">
+              <li><a href="#" style="color: #cd3434;">HOME</a></li>
+              <li><a href="#sobre_mim"><nobr>SOBRE MIM</nobr></a></li>
+              <li><a href="#projetos">PROJETOS</a></li>
+              <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+      <h1 id="titulo">LINAS</h1>
+      <h2 id="subtitulo">DESENVOLVEDOR WEB</h2>
+    </header>
+
+    <main>
+      
+      <section id="sobre_mim">
+        <div id="texto">
+          <h1>Sobre mim</h1>
+           <p>Meu nome é Vitor Gabriel Linas, sou estudante de Sistemas de informação na PUC Minas
+             e estou a procura da minha primeira oportunidade no mercado de tecnologia.</p>
+        </div>
+      
+        <figure>
+          <img src="style/imgs/minhafoto.png" alt="minha foto">
+        </figure>
+      </section>
+      
+
+      <section id="projetos">
+        <h1>Projetos</h1>
+
+        <section  class="container_projetos">
+          <img src="style/imgs/projeto1.png">
+          <div class="sobreposicao">
+            <p>Academia Dynamic</p>
+            <button><a href="https://vitorlinas.github.io/Academia_Dynamic/">Visitar</a></button>
+          </div>
+        </section>
+
+        <section  class="container_projetos">
+          <img src="style/imgs/projeto2.png">
+          <div class="sobreposicao">
+            <p>Hamburgueria Good Meat</p>
+            <button><a href="https://vitorlinas.github.io/Hamburgueria_GoodMeat/">Visitar</a></button>
+          </div>
+        </section>
+
+        <section  class="container_projetos">
+          <img src="style/imgs/projeto3.png">
+          <div class="sobreposicao">
+            <p>Dr. Marcelo Ferraz</p>
+            <button><a href="https://vitorlinas.github.io/Dr.MarceloFerraz/">Visitar</a></button>
+          </div>
+        </section>
+
+
+        <section   class="container_projetos  projetosBottom">
+          <img src="style/imgs/projeto4.jpg" >
+          <div class="sobreposicao">
+            <p>Clone Twitter</p>
+            <button><a href="https://vitorlinas.github.io/Clone_do_Twitter/">Visitar</a></button>
+          </div>
+        </section>
+
+        <section   class="container_projetos  projetosBottom">
+          <img src="style/imgs/projeto5.jpg" >
+          <div class="sobreposicao">
+            <p>Churrascômetro</p>
+            <button><a href="https://vitorlinas.github.io/Churrascometro/">Visitar</a></button>
+          </div>
+        </section>
+
+        <section   class="container_projetos  projetosBottom">
+          <img src="style/imgs/projeto6.png" >
+          <div class="sobreposicao">
+            <p>Jogo da memória</p>
+            <button><a href="https://vitorlinas.github.io/Jogo_da_Memoria/">Visitar</a></button>
+          </div>
+        </section>
+
+        <section   class="container_projetos  projetosBottom">
+          <img src="style/imgs/projeto7.png" >
+          <div class="sobreposicao">
+            <p>Jogo da velha</p>
+            <button><a href="https://vitorlinas.github.io/Jogo_da_velha/">Visitar</a></button>
+          </div>
+        </section>
+
+        <section   class="container_projetos  projetosBottom">
+          <img src="style/imgs/projeto8.png" >
+          <div class="sobreposicao">
+            <p>Gather Money</p>
+            <button><a href="https://vitorlinas.github.io/GatherMoney/">Visitar</a></button>
+          </div>
+        </section>
+
+      </section>
+
+
+
+
+    <form action="https://api.staticforms.xyz/submit" method="post" id="contato">
+      <div class="animate_border"></div>
+      <div id="formulario">
+        <h1>Entre em contato comigo!</h1>
+        <input type="hidden" name="accessKey" value="a8f4d546-9029-4cb8-b8b0-200be9f9b885" id="envio">
+        <input type="hidden" name="redirectTo" value="https://vitorlinas.github.io/LINAS/#contato" > 
+        <input type="text" placeholder="Nome" name="name" id="name">
+        <input type="text" placeholder="E-mail"  name="email" id="email">
+        <textarea  name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <button onclick="enviar()">Enviar</button>
+      </div>
+    </form>
+<hr>
+    <footer>
+      <div id="imagens_footer">
+        <a href="https://mail.google.com/mail/?view=cm&to=vitorgabriellinas@gmail.com"><img src="style/imgs/iconeGmail.png" alt="gmail"></a>
+        <a href="https://www.linkedin.com/in/vitor-gabriel-linas-113a151b5/"><img src="style/imgs/iconeLinkedin.png" alt="linkedin"></a>
+    </div>
+    <p>Copyright © 2022 - Linas</p><br>
+    </footer>
+    </main>
+ 
+</body>
+<script src="script/script.js"></script>
+</html>
